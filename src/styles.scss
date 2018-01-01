@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @charset 'utf-8';
 
+// Bootstrap Required scss
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 //Layout
 @import "scss/layouts/__layouts-dir";
 
