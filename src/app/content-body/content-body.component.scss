@@ -1,0 +1,92 @@
+//Layout
+@import "../../scss/abstracts/__abstracts-dir";
+
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	flex: 1 0 auto;
+}
+
+.sectdiv {
+	display: block;
+	width: 100%;
+	border-bottom: .6em solid $sectbrdr;
+}
+
+.title {
+	background: rgb(75, 75, 75);
+	color: white;
+	height: 3em;
+	line-height: 3em;
+	padding: 0;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.title h2 {
+	display: inline-block;
+	font-family: "acumin-pro", sans-serif;
+	font-weight: 600;
+	font-size: 1.4em;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.info {
+	text-align: center;
+	padding: 3em 4em;
+}
+.info h3 {
+	margin: 1.4em;
+}
+
+.info-col {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 1em 1em;
+}
+
+.info > h3 {
+	font-size: 1.4em;
+}
+
+.info-cpy {
+	display: block;
+	max-width: 30em;
+}
+
+.info-col .logos a>img {
+	max-width: 15em;
+	padding: 2em 0em;
+	transition: all .4s ease-in-out;
+}
+
+.service {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background: white;
+	padding: 4em 6em;
+}
+
+.service h3 {
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+.service p {
+	color: $sectcpy;
+	margin-bottom: 3em;
+}
+
+.service .btn > a {
+	color: white;
+}

@@ -1,0 +1,69 @@
+//Layout
+@import "../../scss/abstracts/__abstracts-dir";
+
+.sched { //sched background
+	background: #001d2d;
+
+}
+
+.title {
+	text-align: center;
+	padding: 2rem;
+}
+
+.title h2 {
+	color: white;
+}
+
+.courses {
+	padding: 0 4rem;
+	font-size: 16px;
+	@media(max-width: 500px) {
+		padding: 2em;
+		font-size: 14px;
+	}
+}
+
+.course {
+	background: white;
+	min-height: 1px;
+	margin-top: 0em;
+	margin-bottom: 2em;
+	padding: 2em 3em;
+	border-radius: 5px;
+}
+.course h4 {
+	font-size: 2.3em;
+	font-weight: 800;
+	color: gray;
+	margin-bottom: 0;
+	padding-top: .5em;
+	@media(max-width: 500px) {
+		text-align: center;
+		padding-top: 0;
+	}
+}
+
+.crs-date {
+	color: $orange;
+	font-size: 1.7em;
+	font-weight: 400;
+	margin: 0;
+}
+
+.crs-location {
+	font-size: 1.2em;
+	color: black;
+}
+
+.crs-link {
+	display: block;
+	color: $blue;
+	font-size: 1.1em;
+	padding-bottom: 1.5em;
+}
+
+.crs-desc {
+	font-size: 1.2em;
+	color: gray;
+}

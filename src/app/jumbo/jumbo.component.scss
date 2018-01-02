@@ -1,0 +1,28 @@
+.mainpanel {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 55.5vw;
+  margin-top: -3em;
+  background: #000000;
+  background-image: url('../../assets/img/topBg_img@2x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  border-radius: 0px;
+}
+
+.mainpanel span {
+  display: inline-block;
+  width: 60vw;
+  height: .6em;
+  background: green;
+}
+
+.mainpanel h2:first-child {
+  margin-top: -1.4em;
+}

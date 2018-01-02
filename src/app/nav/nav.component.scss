@@ -1,0 +1,9 @@
+.navbar-nav > a:hover {
+  color: #ffb400;
+}
+
+a,
+a:hover {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
