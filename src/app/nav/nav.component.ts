@@ -16,7 +16,7 @@ export class NavComponent {
 }
 
 export class NgbdCollapseBasic {
-  public isCollapsed = false;
+  public isCollapsed = {};
 
  toggleMenu() {
     this.isCollapsed = !this.isCollapsed;

@@ -50,7 +50,6 @@ import { ContentAboutComponent } from './content-about/content-about.component';
     JumboComponent,
     ContentschedComponent,
     ContentAboutComponent
-
   ],
   providers: [],
   bootstrap: [AppComponent]

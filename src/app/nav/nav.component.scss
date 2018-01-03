@@ -1,5 +1,14 @@
+//Layout
+@import "../../scss/abstracts/__abstracts-dir";
+
 .navbar-nav > a:hover {
   color: #ffb400;
+}
+
+.nav-bg {
+  @media(max-width: $mediamd) {
+    background: rgba(105,105,105,.6)!important;
+  }
 }
 
 a,

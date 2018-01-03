@@ -1,9 +1,9 @@
-<nav class="navbar navbar-toggleable-sm navbar-expand-sm navbar-dark">
+<nav class="navbar navbar-toggleable-sm navbar-expand-sm navbar-dark nav-bg">
   <a class="navbar-brand" routerLink="/"><img src="../assets/img/GPTSBox_wh.png" height="40px" width="40px" alt="brand logo"></a>
   <button type="button" class="btn btn-outline-primary d-block d-sm-none" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseDiv">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse " id="collapseDiv" [ngbCollapse]="isCollapsed">
+  <div class="collapse navbar-collapse " id="collapseDiv" [ngbCollapse]="!isCollapsed"> <!--!isCollapsed turns off nav until click event-->
     <div class="navbar-nav ml-auto">
       <a class="nav-item nav-link active" routerLink="/suas">sUAS<span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" routerLink="/sched">Courses</a>

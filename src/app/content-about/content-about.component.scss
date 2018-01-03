@@ -1,0 +1,46 @@
+//Layout
+@import "../../scss/abstracts/__abstracts-dir";
+
+.content {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 2em;
+  @media(max-width: $mediasm) {
+    padding: 1em;
+  }
+}
+
+.content-box {
+
+  background: #4673bc;
+  width: 90%;
+  border-radius: 5px;
+  padding: 5em;
+  @media(max-width: $mediasm) {
+    padding: 2em;
+  }
+}
+
+.service {
+  text-align: center;
+}
+
+.service a {
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.service a:hover {
+  color: $orange;
+  text-decoration: none;
+  border-bottom: 1px dotted $orange;
+}
+
+.service button > a {
+  color: black;
+}
+
+.service button > a {
+  color: black;
+}

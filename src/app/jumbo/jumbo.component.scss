@@ -20,6 +20,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -3em;
   }
   @media(max-width: $mediasm) {
     font-size: .8em;
@@ -28,6 +29,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: -6em
   }
 }
 
@@ -46,6 +48,9 @@
 
 .mainpanel h1:first-child {
   margin-top: 21vw;
+  @media(max-width: $mediasm) {
+    margin-top: 31vw;
+  }
 }
 
 .mainpanel h1:last-child {
