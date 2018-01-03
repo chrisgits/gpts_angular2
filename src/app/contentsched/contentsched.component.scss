@@ -2,7 +2,7 @@
 @import "../../scss/abstracts/__abstracts-dir";
 
 .sched { //sched background
-	background: #001d2d;
+	background: #216c85;
 
 }
 
@@ -16,10 +16,13 @@
 }
 
 .courses {
-	padding: 0 4rem;
+	padding: 0 5em;
 	font-size: 16px;
-	@media(max-width: 500px) {
-		padding: 2em;
+	@media(max-width: 1000px) {
+		padding: 3em;
+	}
+	@media(max-width: $mediasm) {
+		padding: 1em;
 		font-size: 14px;
 	}
 }
@@ -31,14 +34,17 @@
 	margin-bottom: 2em;
 	padding: 2em 3em;
 	border-radius: 5px;
+	@media(max-width: $mediasm) {
+		padding: 1em;
+	}
 }
 .course h4 {
-	font-size: 2.3em;
+	font-size: 1.4em;
 	font-weight: 800;
-	color: gray;
+	color: #383838;
 	margin-bottom: 0;
 	padding-top: .5em;
-	@media(max-width: 500px) {
+	@media(max-width: $mediasm) {
 		text-align: center;
 		padding-top: 0;
 	}
@@ -46,24 +52,24 @@
 
 .crs-date {
 	color: $orange;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	font-weight: 400;
 	margin: 0;
 }
 
 .crs-location {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: black;
+}
+
+.crs-desc {
+	font-size: 1em;
+	color: gray;
 }
 
 .crs-link {
 	display: block;
 	color: $blue;
 	font-size: 1.1em;
-	padding-bottom: 1.5em;
-}
-
-.crs-desc {
-	font-size: 1.2em;
-	color: gray;
+	padding-bottom: 1.2em;
 }

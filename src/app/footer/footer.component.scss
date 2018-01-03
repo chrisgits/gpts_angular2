@@ -1,14 +1,89 @@
+@import "../../scss/abstracts/__abstracts-dir";
+
 footer {
   min-height: 4rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 16px;
 }
+
+.ft-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+.quote-block {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  clear: both;
+}
+
+.qt-content {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.qt-content h3 {
+  color: white;
+  font-size: 1.2em;
+}
+
+.qt-content h4 {
+  color: dimgray;
+  font-size: 1em;
+}
+
+.quote-block img {
+  width: 20em;
+  height: auto;
+}
+
+.ft-nav {
+  diplay: flex;
+  flex-flow: column nowrap;
+  justify-content: left;
+  font-size: .8em;
+}
+
+.ft-nav h5 {
+  color: white;
+  font-size: 12px;
+}
+
+.ft-nav a {
+  display: block;
+  color: dimgray;
+}
+
+.ft-nav a:hover {
+  display: inline-block;
+  color: white;
+}
+
+
 
 .legal {
   display: block;
+  margin-top: 2em;
+  padding-bottom: .5em;
   width: 100%;
   color: white;
-  font-size: .8rem;
+  font-size: .6rem;
 }
 
 .legal p {
   margin-bottom: 5px;
+}
+
+.shadow {
+  box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.built a {
+  color: $orange;
 }

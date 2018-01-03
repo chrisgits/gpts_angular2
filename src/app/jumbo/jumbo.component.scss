@@ -1,11 +1,12 @@
 .mainpanel {
   display: flex;
+  font-size: 2em;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   width: 100%;
   min-height: 55.5vw;
-  margin-top: -3em;
+  margin-top: -5em;
   background: #000000;
   background-image: url('../../assets/img/topBg_img@2x.png');
   background-size: 100% 100%;
@@ -14,6 +15,14 @@
   text-align: center;
   color: white;
   border-radius: 0px;
+  @media(max-width: 1000px) {
+    padding-top: 2em;
+    font-size: 1em;
+  }
+  @media(max-width: 500px) {
+    padding-top: 2em;
+    font-size: .8em;
+  }
 }
 
 .mainpanel span {
@@ -23,6 +32,27 @@
   background: green;
 }
 
+.mainpanel h1 {
+  @media(max-width: 500px) {
+    font-size: 1.1em;
+  }
+}
+
 .mainpanel h2:first-child {
   margin-top: -1.4em;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('../../assets/img/vidLoop_poster.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
 }
