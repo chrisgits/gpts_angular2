@@ -15,6 +15,8 @@ import { ContentsuasComponent } from './contentsuas/contentsuas.component';
 import { JumboComponent } from './jumbo/jumbo.component';
 import { ContentschedComponent } from './contentsched/contentsched.component';
 import { ContentAboutComponent } from './content-about/content-about.component';
+import { BusinessComponent } from './business/business.component';
+import { InsuranceComponent } from './insurance/insurance.component';
 
 @NgModule({
   imports: [
@@ -38,6 +40,14 @@ import { ContentAboutComponent } from './content-about/content-about.component';
         path: 'suas',
         component: ContentsuasComponent
       },
+      {
+        path: 'busi',
+        component: BusinessComponent
+      },
+      {
+        path: 'insur',
+        component: InsuranceComponent
+      },
     ])
   ],
   declarations: [
@@ -49,7 +59,9 @@ import { ContentAboutComponent } from './content-about/content-about.component';
     ContentsuasComponent,
     JumboComponent,
     ContentschedComponent,
-    ContentAboutComponent
+    ContentAboutComponent,
+    BusinessComponent,
+    InsuranceComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
