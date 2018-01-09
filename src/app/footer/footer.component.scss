@@ -26,6 +26,7 @@ footer {
 .qt-content {
   display: flex;
   flex-flow: column wrap;
+  align-items: center;
 }
 
 .qt-content h3 {
@@ -34,7 +35,7 @@ footer {
 }
 
 .qt-content h4 {
-  color: dimgray;
+  color: gray;
   font-size: 1em;
 }
 
@@ -61,7 +62,7 @@ footer {
 }
 
 .ft-nav a:hover {
-  display: inline-block;
+  text-decoration: none;
   color: white;
 }
 

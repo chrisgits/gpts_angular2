@@ -45,6 +45,7 @@
 .info {
 	text-align: center;
 	padding: 3em 4em;
+	background: rgba(255,255,255,.5);
 }
 .info h3 {
 	margin: 1.4em;
@@ -94,11 +95,10 @@
 
 .service h3 {
 	text-transform: uppercase;
-	font-size: 1.4em;
-	font-size: 16px;
-	margin-bottom: 2em;
+	font-size: 2em;
+	margin-bottom: 1em;
 	@media(max-width: 1000px) {
-		padding: 3em;
+		padding: 2em;
 	}
 	@media(max-width: 500px) {
 		padding: 1em;
@@ -111,6 +111,16 @@
 	margin-bottom: 3em;
 }
 
+.service .btn {
+	margin-bottom: 4em;
+	text-transform: uppercase;
+}
+
 .service .btn > a {
 	color: white;
+}
+
+.service .btn > a:hover {
+	text-decoration: none;
+	border-bottom: 1px dotted $orange;
 }
