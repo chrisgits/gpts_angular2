@@ -17,6 +17,8 @@ import { ContentschedComponent } from './contentsched/contentsched.component';
 import { ContentAboutComponent } from './content-about/content-about.component';
 import { BusinessComponent } from './business/business.component';
 import { InsuranceComponent } from './insurance/insurance.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [
@@ -48,6 +50,14 @@ import { InsuranceComponent } from './insurance/insurance.component';
         path: 'insur',
         component: InsuranceComponent
       },
+      {
+        path: 'privacy',
+        component: PrivacyComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
+      }
     ])
   ],
   declarations: [
@@ -61,7 +71,9 @@ import { InsuranceComponent } from './insurance/insurance.component';
     ContentschedComponent,
     ContentAboutComponent,
     BusinessComponent,
-    InsuranceComponent
+    InsuranceComponent,
+    PrivacyComponent,
+    ContactComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
