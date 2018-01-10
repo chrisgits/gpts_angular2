@@ -3,6 +3,7 @@ import { Component, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MomentModule } from 'angular2-moment';
 
 
 import { AppComponent } from './app.component';
@@ -20,11 +21,13 @@ import { InsuranceComponent } from './insurance/insurance.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     NgbModule,
+    MomentModule,
     RouterModule.forRoot ([
       {
         path: '',

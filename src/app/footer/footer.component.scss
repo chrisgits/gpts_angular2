@@ -49,6 +49,10 @@ footer {
   flex-flow: column nowrap;
   justify-content: left;
   font-size: .8em;
+  @media (max-width: $mediasm) {
+    margin-bottom: 1em;
+    font-size: 1.4em;
+  }
 }
 
 .ft-nav h5 {

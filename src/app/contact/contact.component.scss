@@ -43,7 +43,7 @@
   padding: 2em;
   @media(max-width: $mediamd) {
     width: 90vw;
-    height: 90vw;
+    height: auto;
     padding: 1em;
   }
 }
