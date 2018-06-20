@@ -1,21 +1,19 @@
 @import "../../scss/abstracts/__abstracts-dir";
 
-
 .blockpage {
   margin: 2em auto;
   padding: 0;
   background: white;
 }
 
-.insinfo {
+.bizinfo {
   display: flex;
   flex-flow: row nowrap;
   background: white;
   width: 100%;
-  padding: 1em;
-  padding-top: 5em;
+  padding: 2em;
   justify-content: center;
-  margin-bottom: 4em;
+  margin-bottom: 3.5em;
   @media(max-width: $mediamd) {
     flex-wrap: wrap;
     margin-bottom: 2em;
@@ -30,11 +28,10 @@
   height: $vw;
   padding: 3em;
   background: dimgray;
-  color: white;
   @media(max-width: $mediamd) {
     width: 90vw;
     height: auto;
-    padding: 1em;
+    padding: 2em;
   }
 }
 
@@ -42,17 +39,54 @@
   content: '';
   width: $vw;
   height: $vw;
-  background: red;
+  background: #ab8342;
+  padding: 2em;
   @media(max-width: $mediamd) {
     width: 90vw;
     height: 90vw;
+    padding: 1em;
   }
 }
 
+.rblock * {
+  font-size: .9em;
+  @media(max-width: $mediamd) {
+    font-size: 1em;
+  }
+}
+
+.rblock a {
+  color: white;
+}
+
+.txtblock {
+  color: white;
+}
+
+.txtblock h3 {
+  color: #ab8342;
+  margin-bottom: 1em;
+}
 
 .txtblock p {
   margin-bottom: .8em;
   font-size: .8em;
+}
+
+.txtblock p>span:first-child {
+  display: block;
+  min-width: 6em;
+}
+
+.txtblock p:nth-child(6) {
+  display: inline-block;
+  margin-left: 0em;
+}
+
+.txtblock p:nth-child(6)>span:nth-child(2){
+  display: inline-block;
+
+  margin-left: 0em;
 }
 
 .txtblock a {

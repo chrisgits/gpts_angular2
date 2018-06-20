@@ -1,0 +1,24 @@
+@import "../../scss/abstracts/__abstracts-dir";
+
+.privcontent {
+  display: flex;
+  flex-flow: column nowrap;
+  background: white;
+  width: 100%;
+  padding: 3em;
+  justify-content: center;
+  margin-bottom: 4em;
+  @media(max-width: $mediasm) {
+    padding: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+}
+
+.privcontent h5 {
+  font-size: .8em;
+}
+
+.privcontent p {
+  font-size: .8em;
+}
