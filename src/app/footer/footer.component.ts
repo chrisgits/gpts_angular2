@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MomentModule } from 'angular2-moment';
+import { MomentModule } from 'ngx-moment';
 
 @Component({
   selector: 'app-footer',
