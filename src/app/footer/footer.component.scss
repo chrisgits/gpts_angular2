@@ -10,7 +10,7 @@ footer {
 
 .ft-content {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   width: 100%;
   margin-bottom: 4em;
@@ -21,6 +21,7 @@ footer {
   flex-flow: column nowrap;
   align-items: center;
   clear: both;
+  margin-bottom: 2em;
 }
 
 .qt-content {
@@ -29,9 +30,16 @@ footer {
   align-items: center;
 }
 
-.qt-content h3 {
+.qt-content h2, h3 {
   color: white;
-  font-size: 1.2em;
+}
+
+.qt-content span a {
+  color: #3BB54A;
+}
+
+.qt-content h3 {
+ font-size: 1.2em;
 }
 
 .qt-content h4 {

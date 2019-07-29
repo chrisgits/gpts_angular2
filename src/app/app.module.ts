@@ -1,16 +1,13 @@
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { Component, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MomentModule } from 'ngx-moment';
-
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
-import { NgbdCollapseBasic } from './nav/nav.component';
 import { ContentBodyComponent } from './content-body/content-body.component';
 import { ContentsuasComponent } from './contentsuas/contentsuas.component';
 import { JumboComponent } from './jumbo/jumbo.component';
@@ -28,7 +25,6 @@ import { DelivComponent } from './deliv/deliv.component';
     BrowserModule,
     FormsModule,
     NgbModule,
-    MomentModule,
     RouterModule.forRoot ([
       {
         path: '',
@@ -66,7 +62,8 @@ import { DelivComponent } from './deliv/deliv.component';
         path: 'deliv',
         component: DelivComponent
       }
-    ])
+    ]),
+    NgbModule.forRoot()
   ],
   declarations: [
     AppComponent,
@@ -82,7 +79,8 @@ import { DelivComponent } from './deliv/deliv.component';
     InsuranceComponent,
     PrivacyComponent,
     ContactComponent,
-    DelivComponent
+    DelivComponent,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
