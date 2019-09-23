@@ -42,7 +42,11 @@
   content: '';
   width: $vw;
   height: $vw;
-  background: red;
+  background: white;
+  background-image: url('../../assets/img/gpts-seal.@2x.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 40vw;
   @media(max-width: $mediamd) {
     width: 90vw;
     height: 90vw;
