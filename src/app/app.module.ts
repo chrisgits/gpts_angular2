@@ -25,46 +25,8 @@ import { DelivComponent } from './deliv/deliv.component';
     BrowserModule,
     FormsModule,
     NgbModule,
-    RouterModule.forRoot([
-    {
-        path: '',
-        component: ContentBodyComponent
-    },
-    {
-        path: 'about',
-        component: ContentAboutComponent
-    },
-    {
-        path: 'sched',
-        component: ContentschedComponent
-    },
-    {
-        path: 'suas',
-        component: ContentsuasComponent
-    },
-    {
-        path: 'busi',
-        component: BusinessComponent
-    },
-    {
-        path: 'insur',
-        component: InsuranceComponent
-    },
-    {
-        path: 'privacy',
-        component: PrivacyComponent
-    },
-    {
-        path: 'contact',
-        component: ContactComponent
-    },
-    {
-        path: 'deliv',
-        component: DelivComponent
-    }
-], { relativeLinkResolution: 'legacy' }),
-    NgbModule.forRoot()
-  ],
+    RouterModule,
+    ],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -80,7 +42,6 @@ import { DelivComponent } from './deliv/deliv.component';
     PrivacyComponent,
     ContactComponent,
     DelivComponent,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
