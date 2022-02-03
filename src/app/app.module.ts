@@ -65,6 +65,8 @@ import { DelivComponent } from './deliv/deliv.component';
 ], { relativeLinkResolution: 'legacy' }),
     NgbModule
   ],
+    RouterModule,
+    ],
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -80,7 +82,6 @@ import { DelivComponent } from './deliv/deliv.component';
     PrivacyComponent,
     ContactComponent,
     DelivComponent,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
