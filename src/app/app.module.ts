@@ -63,7 +63,7 @@ import { DelivComponent } from './deliv/deliv.component';
         component: DelivComponent
     }
 ], { relativeLinkResolution: 'legacy' }),
-    NgbModule.forRoot()
+    NgbModule
   ],
   declarations: [
     AppComponent,
