@@ -1,8 +1,21 @@
 //Layout
 @import "../../scss/abstracts/__abstracts-dir";
 
+.navbar {
+  padding-bottom: .8em;
+}
+
 .navbar-nav > a:hover {
   color: #ffb400;
+}
+
+.navbar-nav{
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.navbar-brand {
+  padding-left: 1em;
 }
 
 .nav-bg {

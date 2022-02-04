@@ -26,15 +26,6 @@
 	}
 }
 
-.nletc-logo {
-	position: absolute;
-	top: 1em;
-	right: 1em;
-	@media(max-width: $mediasm) {
-		display: none;
-	}
-}
-
 .course {
 	background: white;
 	min-height: 1px;

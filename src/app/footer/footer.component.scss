@@ -3,9 +3,13 @@
 footer {
   min-height: 4rem;
   padding-top: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
   font-size: 16px;
+}
+
+.row {
+  @media (max-width: $mediamd) {
+    padding-left: 1em;
+  }
 }
 
 .ft-content {
@@ -40,20 +44,24 @@ footer {
 
 .qt-content h3 {
  font-size: 1.2em;
+ margin-bottom: 1.2em;
 }
 
 .qt-content h4 {
   color: gray;
   font-size: 1em;
+  margin-bottom: 1.2em;
 }
 
 .quote-block img {
   width: 20em;
   height: auto;
+  margin-bottom: 1.6em;
 }
 
 .ft-nav {
   diplay: flex;
+  min-width: 9rem;
   flex-flow: column nowrap;
   justify-content: left;
   font-size: 1.5em;
