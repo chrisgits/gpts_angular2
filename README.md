@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2f31c48-1a5e-4a24-84fc-2488e4fedbaa/deploy-status)](https://app.netlify.com/sites/xenodochial-easley-56a060/deploys)
+
 # Gpts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
