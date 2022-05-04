@@ -42,3 +42,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+gpts_angular2.code-workspace
